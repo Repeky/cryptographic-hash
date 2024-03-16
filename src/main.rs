@@ -1,5 +1,5 @@
 use sha2::{Sha256, Digest};
-use std::io::{self, Write};
+use std::io::{self};
 
 fn main() {
     println!("Введите текст для генерации хеша SHA-256:");
